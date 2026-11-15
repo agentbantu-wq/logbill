@@ -1,0 +1,18 @@
+{"level":"info","ts":"2026-11-14T08:00:01Z","message":"GET /healthz 200"}
+{"level":"info","ts":"2026-11-14T08:00:02Z","message":"GET /healthz 200"}
+{"level":"info","ts":"2026-11-14T08:00:03Z","message":"GET /healthz 200"}
+{"level":"info","ts":"2026-11-14T08:00:04Z","message":"GET /healthz 200"}
+{"level":"info","ts":"2026-11-14T08:00:05Z","message":"GET /healthz 200"}
+{"level":"info","ts":"2026-11-14T08:00:06Z","message":"GET /healthz 200"}
+{"level":"info","ts":"2026-11-14T08:00:07Z","message":"GET /healthz 200"}
+{"level":"info","ts":"2026-11-14T08:00:08Z","message":"GET /healthz 200"}
+{"level":"info","ts":"2026-11-14T08:00:09Z","message":"GET /healthz 200"}
+{"level":"info","ts":"2026-11-14T08:00:10Z","message":"GET /healthz 200"}
+{"level":"info","ts":"2026-11-14T08:00:11Z","message":"GET /api/users/12345 from 10.0.0.7 took 42ms"}
+{"level":"info","ts":"2026-11-14T08:00:12Z","message":"GET /api/users/67890 from 10.0.0.9 took 38ms"}
+{"level":"debug","ts":"2026-11-14T08:00:13Z","message":"cache miss for key abc123"}
+{"level":"debug","ts":"2026-11-14T08:00:14Z","message":"cache miss for key def456"}
+{"level":"info","ts":"2026-11-14T08:00:15Z","message":"Redis PING"}
+{"level":"info","ts":"2026-11-14T08:00:16Z","message":"Redis PING"}
+{"level":"info","ts":"2026-11-14T08:00:17Z","message":"user signed in id=550e8400-e29b-41d4-a716-446655440000"}
+{"level":"error","ts":"2026-11-14T08:00:18Z","message":"payment failed for order 98765: card declined"}
