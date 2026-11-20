@@ -1,0 +1,24 @@
+# CITATION.cff for logbill — commit at the repo root as CITATION.cff
+cff-version: 1.2.0
+title: logbill
+message: "If you use this software, please cite it as below."
+version: 0.1.0
+date-released: 2026-11-15
+authors:
+  - family-names: Sampathi
+    given-names: Shiva
+repository-code: https://github.com/agentbantu-wq/logbill
+license: MIT
+abstract: >-
+  Find what is inflating your observability bill before you pay for it.
+  A Go CLI that audits log and metric volume, flags waste (health-check
+  spam, Redis PING heartbeats, debug logs in prod, duplicates,
+  high-cardinality labels), prices it at Datadog list and flat per-GB
+  rates, and emits ready-to-paste drop rules for Datadog, Vector, and the
+  OpenTelemetry Collector. Local-only by design.
+keywords:
+  - observability
+  - logging
+  - cost-optimization
+  - prometheus
+  - site-reliability-engineering
